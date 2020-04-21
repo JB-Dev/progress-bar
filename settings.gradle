@@ -1,0 +1,3 @@
+rootProject.name='progress_indicator'
+include ':app'
+include ':progress-indicator'

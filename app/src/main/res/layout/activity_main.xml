@@ -6,9 +6,24 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.jb.dev.progress_indicator_fade.fadeProgressBar
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <com.jb.dev.progress_indicator.fadeProgressBar
+        android:id="@+id/p1"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true" />
+
+    <com.jb.dev.progress_indicator.dotBounceProgressBar
+        android:id="@+id/p2"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/p1"
+        android:layout_centerInParent="true"
+        android:background="@color/colorAccent" />
+
+    <com.jb.dev.progress_indicator.dotGrowProgressBar
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/p2"
         android:layout_centerInParent="true" />
 
 </RelativeLayout>
